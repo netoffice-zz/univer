@@ -75,10 +75,10 @@
         "rxjs": ">=7.0.0"
     },
     "dependencies": {
-        "@univerjs/icons": "^0.1.47"
+        "@univerjs/icons": "^0.1.51"
     },
     "devDependencies": {
-        "@types/react": "^18.2.79",
+        "@types/react": "^18.3.2",
         "@univerjs/core": "workspace:*",
         "@univerjs/design": "workspace:*",
         "@univerjs/docs": "workspace:*",
@@ -92,7 +92,7 @@
         "@vitejs/plugin-react": "^4.2.1",
         "@wendellhu/redi": "0.15.2",
         "less": "^4.2.0",
-        "react": "18.2.0",
+        "react": "18.3.1",
         "rxjs": "^7.8.1",
         "typescript": "^5.4.5",
         "vite": "^5.2.11",
