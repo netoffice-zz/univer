@@ -107,3 +107,15 @@ export interface IPaintForScrolling {
     scaleX: number;
     scaleY: number;
 }
+export interface IColumnStyleCfg {
+    fontFamily: string;
+    fontColor: string;
+    fontSize: number;
+    borderColor: string;
+    textAlign: CanvasTextAlign;
+    textBaseline: CanvasTextBaseline;
+    backgroundColor: string;
+}
+
+export type IAColumnCfgObj = IColumnStyleCfg & { text: string };
+export type IAColumnCfg = undefined | null | string | Partial<IAColumnCfgObj>;

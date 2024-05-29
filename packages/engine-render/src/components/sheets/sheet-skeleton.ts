@@ -291,6 +291,9 @@ export class SpreadsheetSkeleton extends Skeleton {
         return this._columnHeaderHeight;
     }
 
+    /**
+     * row col start & end range
+     */
     get rowColumnSegment() {
         return this._rowColumnSegment;
     }
